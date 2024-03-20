@@ -1,0 +1,125 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+  font-size:16px;
+  font-family:"Space Grotesk";
+}
+header{
+  margin:0 auto;
+  width:73rem
+
+}
+
+#homepage{
+  height:5rem;
+  width:14.5rem;
+  display:inline-block;
+  margin:5rem 10rem 0 0;
+}
+.navlinks{display:table-cell;
+  vertical-align: middle;
+  padding:0 1rem 0 1rem;
+  text-decoration:none;
+font-weight:700;
+color:black;
+
+}
+ul{
+  display:table;
+}
+
+.navlinks:hover{
+  border-bottom:0.2rem solid #478B45;
+    color:#478B45;
+}
+li{display:inline-block;}
+nav{display:inline-block;width:48rem;}
+
+ li:last-child{
+  border-radius:1rem;
+  background-color:black;
+
+}
+#contactuslink{
+  color:white;
+  padding:1rem 0 1rem 0;
+}
+#choosepatharea{
+  width:70rem;
+  background-color: blue;
+    margin: 6rem auto;
+
+}
+#jobseekersection{
+  background-image:url("images/jobseeker.png");
+  width:34.87rem;
+  height:38rem;
+  display:inline-block;
+}
+h3{font-size:1.3rem;;}
+p:nth-child(2){color:pink;font-size:3.25rem;}
+p:nth-child(3){font-size:0.9rem;color:white;}
+#employersection{
+  background-image:url("images/employer.png");
+  width:34.87rem;
+  height:38rem;
+  display:inline-block;
+  margin-bottom:9rem;
+  padding:0;
+
+}
+button{
+  background-color:black;
+  padding:2rem;
+  border-radius:2rem;
+  border:none;
+  color:white;
+
+}

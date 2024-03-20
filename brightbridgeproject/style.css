@@ -1,0 +1,236 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+  font-size:16px;
+  font-family:"Space Grotesk";
+}
+header{
+  margin:0 auto;
+  width:72.5rem;
+
+}
+
+#homepage{
+  height:4rem;
+  width:13rem;
+  display:inline-block;
+  margin:3rem 14.2rem 0 0;
+}
+.navlinks{display:table-cell;position:relative;
+  vertical-align: middle;
+  padding:2rem 0.68rem 1.5rem 0.68rem;
+  text-decoration:none;
+font-weight:700;
+color:black;
+
+}
+ul{	margin-left: 0.9rem;
+  display:table;
+}
+#j::after, #d::after, #t::after, #c::after, #p::after{display:block;content:"";width:100%;height:1rem;position:relative;z-index:0;margin:0 auto; }
+#j:hover:after, #d:hover::after, #t:hover::after, #c:hover::after, #p:hover::after{ border-bottom:0.2rem solid #478B45;}
+.navlinks:hover{
+ color:#478B45;
+}
+#jobseekersection::after{z-index:0;background:linear-gradient(to top, green, rgba(0,0,0,0));content:""; width:100%;height:100%; display:inline-block;position:absolute;left:0;top:0;}
+#employersection::after{z-index:0;background:linear-gradient(to top, green, rgba(0,0,0,0));content:""; width:100%;height:100%; display:inline-block;position:absolute;right:0;top:0;}
+li{display:inline-block;position:relative;z-index:3000;}
+nav{display:inline-block;width:45rem;height:4rem;vertical-align: center;margin-bottom:0.7rem;}
+
+ li:last-child{
+
+
+
+}
+#contactuslink{
+	border-radius:1rem;
+	background-color:black;
+	padding-right:0;
+  color:white;
+  padding:1rem 0 1rem 0;
+	width:9.5rem;
+
+	text-align:center;vertical-align:top;
+
+}
+li:last-child{margin-bottom:1.4rem;}
+#choosepatharea{
+  width:72.5rem;
+
+    margin: 3rem auto;
+
+}
+#jobseekersection{
+  background-image:url("images/jobseeker.png");
+	background-size:100%;
+	background-position:center;
+  width:36rem;
+  height:35rem;
+  display:inline-block;
+	position:relative;
+
+
+}
+
+.toptalent img{width:20rem;height:auto;margin-left:7rem;}
+h6{color:white;font-size:1.6rem;text-align: center;}
+h6 span {color:black; font-size:1.6rem;}
+#findcandidate p{color:white;font-size:0.9rem;text-align: center;margin-top:1.5rem;}
+#findcandidate{width:100vw;background-color:green;height:19rem;}
+#findcandidate img{margin:4rem 0 0 20rem;width:22rem;height:12rem;}
+#findcandidatetext{display:inline-block;width:23rem;vertical-align: top;margin:4rem 0 0 10rem;}
+#talentresources a{color:rgba(192, 192, 192, 0.9);padding:0 0.4rem 1.3rem 0.5rem;}
+#talentresources a:hover{color:black; border-bottom:0.3rem solid black;}
+#findcandidate h6{}
+#findcandidate p{}
+	#findcandidate button, {width:10rem;margin:1rem 0 0 6.6rem ;border-radius:1rem;height:4rem;padding:0.7rem;}
+#design{background-color:green;}
+h4{font-size:2.6rem;width:72.5rem;text-align:center;display:inline-block;margin:1.2rem auto 2.8rem auto;font-weight: 700;position:relative;
+z-index:3000;}
+h6{font-weight:bold;}
+h3{color:white;font-size:1rem;margin:17rem 0 0 3.8rem;padding-bottom:0.8rem;font-weight: bold;position:relative;
+z-index:3000;}
+.subtext{font-size:3.2rem;color:white;padding-bottom:0.8rem;font-weight: bold;margin-left: 3.8rem;}
+#employersection p, #jobseekersection p {color:white;margin-left: 3.8rem;position:relative;
+z-index:3000;}
+#employersection{vertical-align: top;
+  background-image:url("images/employer.png");
+	background-size:100%;
+	background-position:center;
+  width:36rem;
+  height:35rem;
+  display:inline-block;
+  margin:0;
+  padding:0;
+	position:relative;
+
+}
+.number{
+	color:black;
+}
+.number:hover{
+	border-bottom:1rem solid black;
+}
+
+.stepdescription{
+	color:black;
+}
+button {position:relative;
+z-index:3000;
+  background-color:black;
+  padding:1.7rem 1.7rem 2.2rem 1.7rem;
+  border-radius:1rem;
+  border:none;
+  color:white;
+	width:12.5rem;
+	line-height: 100%;
+	margin:1.5rem 0 0 3.8rem;
+	height:4rem;
+
+}
+
+.number{
+	padding-bottom:2rem;display:inline-block;
+}
+#design h5{color:white;}
+#design p {color:white;}
+#technologygrid h5, #technologygrid p{display:inline-block;position:relative;bottom:3rem;}
+.stepdescription{padding:2rem 0 2rem 0;font-weight:700; display:inline-block;}
+#moto{text-align:center;color:green;font-weight:700;font-size:2.5rem;margin-top:4.3rem;}
+#technologygrid img{margin:1.5rem;}
+	#moto2{text-align:center;font-weight:700;font-size:2.5rem;margin-bottom:4.3rem;}
+#technologygrid p{padding-left:6.4rem;font-size:0.7rem;padding-top:2rem;}
+h5{font-size:1rem;font-weight: bold;margin-top:2rem;}
+#hiringprocess p {color:silver; font-size:1rem;}
+#hiringprocess{width:72.5rem;margin:0 auto;}
+.widthforbutton{}
+#hiringstep1, #hiringstep2, #hiringstep3{text-align:center;display:inline-block;width:16rem;height:12rem;margin-left:6rem;}
+#technologygrid{display:grid;width:72.5rem;grid-template-columns:repeat(4,14rem);grid-column-gap:1.5rem;grid-template-rows:12rem 12rem;margin:0 auto 6rem auto;align-items:center;justify-content:center;}
+.technologyarea{display: inline-block;border-radius:2rem;background-color: white;box-shadow:0.2rem 0rem 1.5rem hsla(0, 0%, 50.2%, 0.4);width:15rem;height:8.8rem;}
+.technologyarea svg {margin:2rem 0.6rem 0 1.1rem;float:left;}
+#talentresources{width:72.5rem; margin:4.4rem auto 0 auto;}
+#talentresources ul{ text-align:center;display:block;margin-left:0;font-size:1.4rem;}
+.toptalent p {float:left; width:20rem;clear:left;text-align:left;}
+.toptalent h6 {float:left; width:20rem;margin-bottom:1.5rem;}
+.toptalent{margin:4rem auto 6.5rem auto;width:72rem;}
+.greendiv{
+	background-color:green;
+	width:72rem;
+	margin:0 auto;
+	border-radius:4rem;
+	height:18.2rem;
+}
+.greendiv {text-align:center;font-size:1.9rem;font-weight: bold;}
+.greendiv p {padding-top:6rem;}
+footer{width:100vw;height:22rem;background-color:black;}
+footer p {color:white;}
+footer li{color:white;}
+.footernav{width:72.5rem;margin:7.5rem auto 0 auto;}
+.footernav li {display:block;padding-bottom:1rem;}
+.footernav ul {display:inline-block; margin-left:7.4rem;vertical-align: top;padding-top:3rem;}
+.footernav svg{margin-top:3.7rem;}
+.footernav p {position:relative;bottom:3.5rem;}
+.socials img {width:1.2rem;height:1.2rem;padding:1.5rem;}
+.socials{background-color:black;width:18rem;margin:0 auto;}
+.copyright{margin:0 auto; width:20rem;color:white;background-color:black;}
+footer{background-color:black;height: 40rem;}
+
+
+
+.tmd{width:47rem;margin:0 auto;}
+@media (min-width:320px)  { html{font-size:2px;}  }
+@media (min-width:480px)  { html{font-size:5px;} }
+@media (min-width:600px)  { html{font-size:8px;}  }
+@media (min-width:801px)  { html{font-size:11px;}  }
+@media (min-width:1025px) { html{font-size:13px;} }
+@media (min-width:1281px) { html{font-size:16px;} }
+@media (min-width:1500px) { html{font-size:19px;} }
+@media (min-width:1800px) { html{font-size:22px;} }
+@media (min-width:1900px) { html{font-size:25px;} }
